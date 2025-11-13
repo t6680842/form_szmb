@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>申し込みページ</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background: #f9f9f9;
+      font-family: sans-serif;
+      padding: 20px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      width: 100%;
+      max-width: 900px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: center;
+    }
+
+    .description {
+      margin-bottom: 20px;
+      font-size: 16px;
+      color: #333;
+      line-height: 1.4;
+    }
+
+    form input[type="submit"] {
+      padding: 12px 24px;
+      font-size: 18px;
+      border: none;
+      border-radius: 6px;
+      background-color: #ff00b8;
+      color: #fff;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    form input[type="submit"]:hover {
+      background-color: #e000a5;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="description">
+        【2025年12月21日　東京】INUWASI birthday live - すずめ -
+      </div>
+      <form method="post" action="https://eplus.jp/sf/detail/4017580001?P6=770">
+        <input type="submit" value="申し込みへ">
+        <input type="hidden" name="keyword" value="19167">
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
